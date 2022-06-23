@@ -1,19 +1,15 @@
 <template>
   <div id="app">
-    <img
-      alt="Vue logo"
-      src="./assets/logo.png"
-    />
-    <HelloWorld msg="Hello Vue 2 + Vite" />
+    <Permissions />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Permissions from "./components/Permissions.vue";
 export default {
   components: {
-    HelloWorld,
-  },
+    Permissions,
+  }
 };
 </script>
 
@@ -24,6 +20,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 60px auto 0;
+  max-width: 900px;
 }
 </style>
